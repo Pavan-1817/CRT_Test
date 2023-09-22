@@ -1,11 +1,12 @@
 *** Settings ***
-Resource                      ../resources/common.robot
+Resource                      common.robot
 Suite Setup                   Setup Browser
 Suite Teardown                End suite
 
 
 *** Test Cases ***
 Entering A Lead
+#This edit was done in CRT
     [tags]                    Lead                        Git Repo Exercise
     Appstate                  Home
     LaunchApp                 Sales
